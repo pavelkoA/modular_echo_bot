@@ -1,6 +1,6 @@
 import asyncio
 
-from config_data.config import load_config
+from config_data.config import load_config, Config
 from aiogram import Bot, Dispatcher
 
 from handlers import user_handlers, other_handlers
@@ -20,4 +20,6 @@ async def main() -> None:
 
 if __name__ == '__main__':
     asyncio.run(main())
+
+
 
